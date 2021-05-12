@@ -1,0 +1,55 @@
+{
+  "name": "avgl_bundle",
+  "version": "1.0.0",
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "avgl-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "dashboardPanels": [
+      {
+        "name": "name",
+        "title": "Teams",
+        "width": 2,
+        "file": "teams.html",
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "casters",
+        "title": "Casters",
+        "width": 2,
+        "file": "casters.html",
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "Score",
+        "title": "B03 Score",
+        "width": 2,
+        "file": "score.html",
+        "headerColor": "#525F78"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "VAL_scoreboard.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "Caster_Desk.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  "dependencies": {
+    "gsap": "^3.0.1"
+  }
+}

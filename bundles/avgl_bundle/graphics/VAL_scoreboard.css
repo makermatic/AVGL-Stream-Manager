@@ -1,0 +1,75 @@
+body {
+	background: black 0% 0% no-repeat padding-box;
+	background-image: url("layout1x.png");
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	opacity: 1;
+}
+
+.score {
+	opacity: 1;
+}
+
+#team1Name {
+	position: absolute;
+	text-transform: uppercase;
+
+	top: 36px;
+	left: 300px;
+	width: 95px;
+	height: 29px;
+	text-align: left;
+	font: normal normal bold 25px/28px Torque;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	text-shadow: 0px 3px 6px #00000029;
+	opacity: 1;
+}
+
+#team2Name {
+	position: absolute;
+	text-transform: uppercase;
+	
+	top: 36px;
+	left: 1525px;
+	width: 95px;
+	height: 29px;
+	text-align: right;
+	font: normal normal bold 25px/28px Torque;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	text-shadow: 0px 3px 6px #00000029;
+	opacity: 1;
+}
+
+#team1 {
+	position: absolute;
+	display: none;
+
+	top: 35px;
+	left: 257px;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	font: normal normal bold 25px/28px Torque;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+
+#team2 {
+	position:absolute;
+	display: none;
+
+	top: 35px;
+	left: 1628px;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	font: normal normal bold 25px/28px Torque;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
