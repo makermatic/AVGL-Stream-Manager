@@ -8,6 +8,9 @@ const team2Rep = nodecg.Replicant('team2');
 const team1El = document.getElementById('team1');
 const team2El = document.getElementById('team2');
 
+//Round Rep
+const round = document.getElementById('round');
+
 //Listen for Scores
 team1Rep.on('change', (newVal) => {
 	team1El.innerHTML = newVal;
@@ -18,10 +21,11 @@ team2Rep.on('change', (newVal) => {
 })
 
 
-//Listen for Team Names
+//Listen for Team Names and Round
 nodecg.listenFor('updateTeams', (data) => {
 	team1Name.innerHTML = data.team1Name
 	team2Name.innerHTML = data.team2Name
+	round.innerHTML = data.round
 })
 
 nodecg.listenFor('b03Toggle', (data) => {
