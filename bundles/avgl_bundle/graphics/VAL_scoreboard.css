@@ -1,3 +1,8 @@
+@font-face {
+	font-family: Torque;
+	src: url("//db.onlinewebfonts.com/t/cd9b589dbdf87cbb0345c9b01e208d0a.ttf");
+}
+
 body {
 	background: black 0% 0% no-repeat padding-box;
 	background-image: url("layout1x.png");
